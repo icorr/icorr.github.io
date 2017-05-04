@@ -23,24 +23,23 @@
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
 					<header id="header" class="alt style2">
 						<a href="index.html" class="logo"><strong>iCorr</strong> <span>Intemperismo y Corrosión</span></a>
-						<nav>
-							<a href="#one">Acerca de nosotros</a>
-							<a href="#two">Servicios</a>
-							<a href="#contact">Contacto</a>
+						<nav id="nav-wide">
+							<a href="#acerca">Acerca de nosotros</a>
+							<a href="#servicios">Servicios</a>
+							<a href="#contacto">Contacto</a>
+						</nav>
+						<nav id="nav-menu">
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-						<ul class="actions vertical">
-							<li><a href="#" class="button special fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="#one">Acerca de nosotros</a></li>
+							<li><a href="#two">Servicios</a></li>
+							<li><a href="#contact">Contacto</a></li>
 						</ul>
 					</nav>
 
@@ -52,10 +51,10 @@
 								<img src="images/pexels-photo-190574.jpeg" alt="" />
 							</span>
 							<header class="major">
-								<img src="images/icorr_vectorized.png" alt="" class="banner-img">
+								<img src="images/icorrLogo.png" alt="" class="banner-img">
 							</header>
 							<div class="content">
-								<p>Servicios de asesoría, evaluación y análisis de ensayos de corrosión acelerada de productos metalmecánicos.</p>
+								<p>“Especialistas en análisis de corrosión acelerada e intemperismo”.</p>
 							</div>
 						</div>
 					</section>
@@ -64,23 +63,34 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="acerca">
 								<div class="inner">
 									<header class="major">
-										<h2 id="acerca">Acerca de nosotros</h2>
+										<h2 id="one">Acerca de nosotros</h2>
 									</header>
 									<p>Somos una empresa orientada a ofrecer servicios de asesoría, evaluación e interpretación de los resultados de ensayos de corrosión acelerada de productos de metalmecánicos.</p>
 									<p>Con la <b>VISIÓN</b> de crear un enlace de confianza entre eslabones de la cadena de suminstro de la Industria Automotríz, mediante la homologación de métodos o normativas de calidad, siendo un referente en el área para cualquier consulta y/o servicio; operando con políticas en pro del medio ambiente y bienestar personal.</p>
-									<p>Contamos con <b>personal capacitado</b> con experiencia en el área de materiales, recubrimientos orgánicos y normatividades internacionales en los sitemas de Gestión de la Calidad de la Industria Automotríz.</p>
+									<p>Contamos con <b>personal capacitado</b> con experiencia en el área de materiales, recubrimientos orgánicos y normatividades internacionales en los Sistemas de Gestión de la Calidad de la Industria Automotríz.</p>
 								</div>
 							</section>
 
+						<!-- ubicacion -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Ubicación</h2>
+									</header>
+									<p>Querétaro, punto geográfico estratégico en la proveeduría automotriz del bajío.</p>
+									<img src="images/regionMexico.png" alt="">
+								</div>
+								<div id="servicios"></div>
+							</section>
+
 						<!-- Two -->
+
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
-									</a>
+									<img src="images/pic08.jpeg" alt="" data-position="center center" />
 									<div class="content">
 										<div class="inner">
 											<header class="major">
@@ -92,9 +102,7 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="top center" />
-									</a>
+									<img src="images/fog-machine.jpg" alt="" data-position="25% 25%" />
 									<div class="content">
 										<div class="inner">
 											<header class="major">
@@ -104,22 +112,32 @@
 											<ul>
 												<li>Niebla salina</li>
 												<li>Ciclos de Automoción</li>
-												<li>Normatividades: ASTM B 117, D2247.</li>
+												<li><ul> Procedimientos:
+													<li>ASTM B117: “Práctica estándar para el uso de la cámara de niebla salina”.</li>
+													<li>ASTMB368: “Prueba acelerada de niebla salina de cobre-ácido acético (Test CASS)”.</li>
+													<li>ASTM D2247: “Prueba de resistencia al agua para recubrimientos con 100% de humedad relativa”.</li>
+													<li>ASTM G45: “Modificaciones de la prueba de niebla salina”.</li>
+												</ul></li>
 											</ul>
-
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
-									</a>
+									<img src="images/corrosion-coupons.jpg" alt="" data-position="25% 25%" />
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Evaluación de especímenes e Interpretación</h3>
 											</header>
-											<p>Las pruebas y evaluaciones se realizan de acuerdo con los procedimientos estándar apropiados de ASTM, ISO, VW, JIS, SAE u otros.</p>
+											<p>Las pruebas y evaluaciones se realizan de acuerdo con los procedimientos estándar apropiados, como:</p>
+											<ul>
+												<li>ASTM D3359: Método estándar para la prueba de adhesión por el método de la cinta.</li>
+												<li>ASTM D522: Métodos de ensayo estándar para la prueba “Mandre Bend” en revestimientos orgánicos.</li>
+												<li>Mandrel Bend Test.</li>
+												<li>ASTM D3363: Método estándar para la prueba de dureza de película por prueba de lápiz.</li>
+												<li>ASTM D2794: Método estándar para la prueba de resistencia de revestimientos orgánicos a los efectos de deformación por impacto.</li>
+												<li>ASTM D1654: Método estándar para la evaluación de muestras pintadas o revestidas sometidas a ambientes corrosivos.</li>
+											</ul>
 											<p>Con base a normas de referencia se pueden realizar también exposiciones personalizadas.</p>
 										</div>
 									</div>
@@ -127,68 +145,62 @@
 							</section>
 
 						<!-- Three -->
-							<section id="three">
-								<div class="inner">
-									<header class="major">
-										<h2>Massa libero</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button next">Get Started</a></li>
-									</ul>
-								</div>
-							</section>
+
 
 					</div>
 
 				<!-- Contact -->
-					<section id="contact">
+					<section id="contacto">
 						<div class="inner">
 							<section>
-								<h3>¿Porqué Querétaro?</h3>
-								<p>Por su distribución Geográfica estratégica de los principales proveedores de primer nivel (Tier 1) en territorio Mexicano.</p>
-								<img src="images/regionMexico.png" alt="">
+								<h3>Contacto</h3>
+								<p>Si usted desea más información llene este formulario. Será contactado lo más pronto posible.</p>
+								<p>Por favor llene los campos requeridos</p>
+								<form method="post" action="http://formspree.io/contacto@icorr.com.mx">
+									<div class="field half first">
+										<label for="nombre">Su nombre*</label>
+										<input type="text" name="nombre" id="name" required/>
+									</div>
+									<div class="field half">
+										<label for="_replyto">Su correo electrónico*</label>
+										<input type="email" name="_replyto" id="email" required/>
+									</div>
+									<div class="field">
+										<label for="tel">Teléfono</label>
+										<input type="text" name="telefono" id="telefono" />
+									</div>
+									<div class="field">
+										<label for="fuente">¿Cómo se enteró de nosotros?</label>
+										<input type="text" name="fuente" id="fuente" />
+									</div>
+									<div class="field">
+										<label for="mensaje">Describa su petición*</label>
+										<textarea name="mensaje" id="message" rows="6" required></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Enviar" class="special" /></li>
+									</ul>
+								</form>
 							</section>
-							<section class="split">
+
+						</div>
+					</section>
+					<section>
+						<div class="inner">
+							<section class="">
 								<section>
+									<h3>También puedes contactarnos</h3>
 									<div class="contact-method">
-										<h3>Elizabeth Juárez Ortega</h3>
 										<p>
 											<span class="icon alt fa-envelope"></span>
-											Correo: <a href="mailto:elizabeth.juarez05@gmail.com">elizabeth.juarez05@gmail.com</a>
-										</p>
-										<p>
-											<span class="icon alt fa-phone"></span>
-											Cel. <a href="tel:4421420086">442 1420086</a>
+											Al correo: <a href="mailto:ventas@icorr.com.mx">ventas@icorr.com.mx</a>
 										</p>
 									</div>
 								</section>
-								<section>
-									<div class="contact-method">
-										<h3>Diana Morín Lara</h3>
-										<p>
-											<span class="icon alt fa-envelope"></span>
-											Correo: <a href="mailto:dnmorinlara@gmail.com">dnmorinlara@gmail.com</a>
-										</p>
-										<p>
-											<span class="icon alt fa-phone"></span>
-											Cel. <a href="tel:4423300422">442 3300422</a>
-										</p>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
+
 							</section>
 						</div>
 					</section>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
